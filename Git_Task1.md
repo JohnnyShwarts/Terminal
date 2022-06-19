@@ -1,4 +1,4 @@
-### Create a text file like in the first Terminal homework. - [Git_Task1.txt]()
+### Create a text file like in the first Terminal homework. - [Git_Task1.txt](https://github.com/JohnnyShwarts/Terminal)
 
 1. Transfer the script to this file.
 
@@ -36,6 +36,9 @@ number of pets - 1
 desired salary - $1000
 ```
 - press Esc - enter ```:wq```
+- ```:q!``` - exit without saving
+
+![new2txt_1](https://user-images.githubusercontent.com/104720406/174484828-3fb70c32-9c33-43d0-bfa7-9545b44fd019.png)
 
 12. Edit the contents of the __“new2.json” file__ - write information about yourself (name, age, number of pets, future desired salary). Everything is written in JSON format. - vim new2.json - ```vim new2.json``` 
 
@@ -50,6 +53,10 @@ desired salary - $1000
 },
 ```
 - press Esc - enter ```:wq```
+- ```:q!``` - exit without saving
+
+![new2json_1](https://user-images.githubusercontent.com/104720406/174484958-77002ae7-2a66-4951-abc2-efda6eaf684a.png)
+
 
 13. Add and commit __"new2.txt"__ in one line. - ```git commit new2.txt -m 'txt'```
 
@@ -69,6 +76,8 @@ desired salary - $1000
 </info>
 ```
 - press Esc - type ```:wq```
+
+![new2xml_1](https://user-images.githubusercontent.com/104720406/174484993-015f2ee8-d88d-4085-a811-cf7166848d83.png)
 
 
 17. Add and commit __“new2.xml”__ in one line. - ```git commit new2.xml -m 'xml'```
@@ -101,11 +110,14 @@ desired salary - $1000
 "the country you would like to visit" : ["India, Australia"]
 },
 ```
+![new2json2_1](https://user-images.githubusercontent.com/104720406/174485013-7b563ec6-ce65-4152-9a5f-951b19c68607.png)
+
+
 25. Make a Commit changes (save) the changes on the web interface. - ```commit changes```
 
 26. Synchronize external and local repositories - ```git pull```
 
-27. Edit the contents of the “new2.xml” file in the web interface - add information about your preferences (Favorite movie, favorite series, favorite food, favorite season, country you would like to visit). Everything is in XML format. - 
+27. Edit the contents of the “new2.xml” file in the web interface - add information about your preferences (Favorite movie, favorite series, favorite food, favorite season, country you would like to visit). Everything is in __XML format__  
 
 ```XML
 <info> 
@@ -120,6 +132,8 @@ desired salary - $1000
  <the_country_you_would_like_to_visit>India, Australia</the_country_you_would_like_to_visit> 
 </info>
 ```
+![new2xml2_1](https://user-images.githubusercontent.com/104720406/174485018-0ce91d96-1655-4acb-b3b7-4bd722f32ae6.png)
+
 28. Make Commit changes (save) changes on the web interface - ```Commit changes```
 
 29. Synchronize external and local repositories - ```git pull```

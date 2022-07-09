@@ -66,6 +66,17 @@ desired salary - $1000
 
 16. Edit the content of the __“new2.xml”__ file - write information about yourself (name, age, number of pets, future desired salary). Everything is written in XML format. - ```vim new2.xml``` 
 
+____
+__Sometimes, at the top of an XML document, you'll see something like this:__
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+```
+_This line is called the XML Prologue. It shows the version of XML that is used in the document, as well as the encoding. The prologue is optional, if it doesn't exist, that's __OK__. But if it is, then it must be the first line of the XML document._
+[read more here](https://habr.com/ru/post/524288/)
+
+UTF-8 — default encoding of XML documents.
+____
+
 - press ```i```
 ```xml
 <info>
